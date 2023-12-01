@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import { Col, Row } from "react-bootstrap";
 import ArtworkCardDetail from '@/components/ArtworkCardDetail'
 
-export default function objectID() {
+export default function ObjectID() {
     const router = useRouter();
     const { objectID } = router.query;
     return (
