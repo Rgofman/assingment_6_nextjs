@@ -19,8 +19,8 @@ export default function MainNav() {
 
   function logout() {
     setIsExpanded(false)
-    router.push(`/login`)
     removeToken()
+    router.push(`/login`)
   }
 
   const handleSearchSubmit = async (e) => {
